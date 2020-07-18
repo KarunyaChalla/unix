@@ -3,7 +3,7 @@
 echo "[Guessing game 101 ]"
 
 function ask {
-	echo "Think you knwo your device ?? Try and guess the number of files in the current directory:"
+	echo "Do you know your device ? Try and guess the number of files in the current directory:"
 	read guess
     files=$(ls -1 | wc -l)
 }
@@ -24,6 +24,6 @@ do
 done
 
 echo " "
-echo "Well done! It is the correct answer, here is the list of files:"
+echo "Congratulations,you have got it right. This is the list:"
 echo " "
 echo "---" && ls -1
