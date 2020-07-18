@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-echo "[Welcome to Guessing game]"
+echo "[Guessing game 101 ]"
 
 function ask {
-	echo "Try and guess the number of files in the current directory:"
+	echo "Think you knwo your device ?? Try and guess the number of files in the current directory:"
 	read guess
     files=$(ls -1 | wc -l)
 }
